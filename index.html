@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Sanika Madane - Beginner Web Developer Portfolio"
+  >
+
+  <title>Sanika Madane | Web Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <nav class="navbar">
+
+      <a href="#home" class="logo">
+        Sanika<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+      >
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+
+        <div class="hero-text reveal">
+
+          <p class="small-heading">HELLO, I'M</p>
+
+          <h1>
+            Sanika
+            <span>Madane</span>
+          </h1>
+
+          <h2>Beginner Web Developer</h2>
+
+          <p class="hero-description">
+            Hi, I'm Sanika Madane, a beginner web developer who enjoys
+            creating clean and responsive websites.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#contact" class="btn btn-primary">
+              Contact Me
+            </a>
+
+            <a href="resume.pdf" class="btn btn-secondary" download>
+              Download Resume
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Profile placeholder -->
+        <div class="profile-container reveal">
+
+          <div class="profile-placeholder">
+            <span>SM</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+
+      <div class="container">
+
+        <div class="section-title reveal">
+          <p class="small-heading">ABOUT ME</p>
+          <h2>Getting started with web development.</h2>
+        </div>
+
+
+        <div class="about-content reveal">
+
+          <p>
+            My name is Sanika Madane. I am a student/learner interested
+            in web development. I am learning HTML and CSS. I enjoy
+            creating websites and want to improve my skills in frontend
+            development.
+          </p>
+
+          <p>
+            I am continuously learning and exploring new ways to create
+            clean, simple, and user-friendly websites.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section skills-section" id="skills">
+
+      <div class="container">
+
+        <div class="section-title reveal">
+          <p class="small-heading">MY SKILLS</p>
+          <h2>Technologies I'm learning.</h2>
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card reveal">
+            <div class="skill-number">01</div>
+            <h3>HTML</h3>
+            <p>
+              Creating well-structured and semantic web pages.
+            </p>
+          </div>
+
+
+          <div class="skill-card reveal">
+            <div class="skill-number">02</div>
+            <h3>CSS</h3>
+            <p>
+              Designing responsive and visually appealing websites.
+            </p>
+          </div>
+
+
+          <div class="skill-card reveal">
+            <div class="skill-number">03</div>
+            <h3>Learning</h3>
+            <p>
+              Continuously improving my frontend development skills.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact-section" id="contact">
+
+      <div class="container contact-grid">
+
+        <div class="contact-info reveal">
+
+          <p class="small-heading">CONTACT</p>
+
+          <h2>
+            Let's start a conversation.
+          </h2>
+
+          <p>
+            Have a question or want to connect? Feel free to get in touch.
+          </p>
+
+
+          <div class="contact-details">
+
+            <div>
+              <span>Email</span>
+              <strong>sanika@example.com</strong>
+            </div>
+
+            <div>
+              <span>Phone</span>
+              <strong>+91 00000 00000</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Contact form -->
+        <form class="contact-form reveal" id="contactForm">
+
+          <div class="form-group">
+            <label for="name">Name</label>
+
+            <input
+              type="text"
+              id="name"
+              placeholder="Your name"
+              required
+            >
+          </div>
+
+
+          <div class="form-group">
+            <label for="email">Email</label>
+
+            <input
+              type="email"
+              id="email"
+              placeholder="you@example.com"
+              required
+            >
+          </div>
+
+
+          <div class="form-group">
+            <label for="message">Message</label>
+
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Your message..."
+              required
+            ></textarea>
+          </div>
+
+
+          <button type="submit" class="btn btn-primary">
+            Send Message →
+          </button>
+
+          <p id="formMessage" class="form-message"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+
+    <div class="footer-content">
+
+      <a href="#home" class="logo">
+        Sanika<span>.</span>
+      </a>
+
+      <p>
+        Building my skills, one website at a time.
+      </p>
+
+      <p class="copyright">
+        © <span id="year"></span> Sanika Madane. All rights reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================= JAVASCRIPT REFERENCE ================= -->
+  <script src="script.js"></script>
+
+</body>
+</html>
